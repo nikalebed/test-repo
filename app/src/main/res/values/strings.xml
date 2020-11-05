@@ -1,0 +1,379 @@
+<resources>
+    <string name="app_name">DIAlog for BETter</string>
+    <string name="first_message">
+        Добро пожаловать в DIAlog for BETter!!!\n\n
+        Сейчас приложение может выполнять следующие команды:\n
+        "ПОКАЗАТЕЛЬ" - регулярно вводите данные по выбранным критериям, по ним в дальнейшем можно будет составить составить статистику вашего состояния\n
+        "РАСЧЕТ" -  приложение поможет Вам расчитать дозу инсулина для регулирования уровеня сахара в крови\n
+        "КАЛЕНДАРЬ" - фиксируйте события, связанные с вашим здоровьем прямо в приложении\n\n
+        Просто используйте подсказки над клавиатурой или вводите нужные команды вручную.\n Удачи:)
+    </string>
+    <string-array name="InsulineType">
+        <item>короткий</item>
+        <item>ультракороткий</item>
+    </string-array>
+    <string-array name="MediaclCriterias">
+        <item>уровень сахара в крови</item>
+        <item>систолическое давление</item>
+        <item>диастолическое давление</item>
+        <item>уровень холестерина в крови</item>
+        <item>изменение веса тела</item>
+        <item>острота зрения</item>
+    </string-array>
+    <string-array name="AdditionalMediaclCriterias">
+        <item>систолическое давление</item>
+        <item>диастолическое давление</item>
+        <item>уровень холестерина в крови</item>
+        <item>изменение веса тела</item>
+        <item>острота зрения</item>
+    </string-array>
+    <string-array name="MediaclCriteriasHints">
+        <item>уровень давления крови в момент максимального сокращения сердца</item>
+        <item>уровень давления крови в момент максимального расслабления сердца</item>
+        <item>общий уровень холестерина в крови ммоль/л</item>
+        <item>массса тела в кг</item>
+        <item>определяется количеством строк начиная с верхней по таблице Сивцева или Головина с расстояния 5 метров</item>
+    </string-array>
+
+    <string-array name="MediaclCriteriasInput">
+        <item>введите число - уровень сахара в крови</item>
+        <item>введите число - уровень давления крови в момент максимального сокращения сердца</item>
+        <item>введите число - уровень давления крови в момент максимального расслабления сердца</item>
+        <item>введите число - общий уровень холестерина в крови ммоль/л</item>
+        <item>введите число - ваш вес в кг</item>
+        <item>введите число - показатель остроты зрения</item>
+    </string-array>
+
+    <string name="material_calendar_monday">ПН</string>
+    <string name="material_calendar_tuesday">ВТ</string>
+    <string name="material_calendar_wednesday">СР</string>
+    <string name="material_calendar_thursday">ЧТ</string>
+    <string name="material_calendar_friday">ПТ</string>
+    <string name="material_calendar_saturday">СБ</string>
+    <string name="material_calendar_sunday">ВС</string>
+    <array name="material_calendar_months_array">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </array>
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+    <string name="title_activity_phisiology">"Здраствуйте! Перед тем как начать, введите следующую информацию о себе:"
+</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="basic_foods">
+        <item>Молоко</item>
+        <item>Молоко топленое</item>
+        <item>Кефир</item>
+        <item>Кефир бифидок</item>
+        <item>Ацидофилин сладкий</item>
+        <item>Йогурт натуральный несладкий (био)</item>
+        <item>Йогурт фруктовый</item>
+        <item>Сливки</item>
+        <item>Пахта</item>
+        <item>Простокваша</item>
+        <item>Ряженка</item>
+        <item>Мороженое молочное (без глазури и вафель)</item>
+        <item>Мороженое сливочное (в глазури или вафлях)</item>
+        <item>Сгущенное молоко без сахара</item>
+        <item>Сухое молоко в порошке</item>
+        <item>Сырник средний</item>
+        <item>Творожная масса сладкая</item>
+        <item>Детские глазированные сырки</item>
+        <item>Творожная масса с изюмом сладкая </item>
+        <item>Ржаной хлеб из муки грубого помола</item>
+        <item>Хлеб белый , серый (кроме сдобного)</item>
+        <item>Хлеб черный</item>
+        <item>Хлеб с отрубями</item>
+        <item>Хлеб бородинский</item>
+        <item>Хлеб рижский</item>
+        <item>Хлеб ароматный</item>
+        <item>Хлеб ржаной г</item>
+        <item>Хрустящие хлебцы</item>
+        <item>Хлебные палочки</item>
+        <item>Сухари несладкие</item>
+        <item>Сушки несладкиег</item>
+        <item> Крекеры</item>
+        <item>Лаваш</item>
+        <item>Сдобная булка</item>
+        <item>Тесто слоеное замороженное</item>
+        <item>Тесто дрожжевое замороженное</item>
+        <item>Блин тонкий</item>
+        <item>Блинчики с творогом замороженные</item>
+        <item>Блинчики с мясом замороженные</item>
+        <item>Вареники с творогом замороженные</item>
+        <item>Пельмени замороженные</item>
+        <item>Ватрушка</item>
+        <item>Вафли мелкие</item>
+        <item>Мука</item>
+        <item>Пряник</item>
+        <item>Оладьи</item>
+        <item>Панировочные сухари</item>
+        <item>Печенье сливочное</item>
+        <item>Крупа сырая</item>
+        <item>Каша</item>
+        <item>Овсяные хлопья</item>
+        <item>Пшеничные отруби</item>
+        <item>Макаронные изделия</item>
+        <item>Вареные макароны</item>
+        <item>Бобы сушеные</item>
+        <item>Бобы вареные</item>
+        <item>Горошек ( мозговой ) консервированный</item>
+        <item>Картофель в мундире</item>
+        <item>Оладьи из картофеля замороженные</item>
+        <item>Картофель сырой</item>
+        <item>Картофель вареный</item>
+        <item>Картофельное пюре</item>
+        <item>Картофель жареный</item>
+        <item>Картофель Фри</item>
+        <item>Картофельные чипсыг</item>
+        <item>Кукуруза (початок)</item>
+        <item>Кукуруза консервированная</item>
+        <item>Кукуруза вареная</item>
+        <item>Кукурузные хлопья</item>
+        <item>Морковь</item>
+        <item>Свекла</item>
+        <item>Фасоль</item>
+        <item>Чечевица</item>
+        <item>Тыква</item>
+        <item>Кетчуп</item>
+        <item>Топинамбур</item>
+        <item>Бобы сои сушеные</item>
+        <item>Абрикос</item>
+        <item>Авокадо</item>
+        <item>Айва</item>
+        <item>Алыча</item>
+        <item>Ананас</item>
+        <item>Апельсин</item>
+        <item>Арбуз</item>
+        <item>Банан</item>
+        <item>Брусника</item>
+        <item>Виноград</item>
+        <item>Вишня</item>
+        <item>Гранатг</item>
+        <item>Грейпфрут</item>
+        <item>Груша</item>
+        <item>Дыня</item>
+        <item>Ежевика</item>
+        <item>Земляника</item>
+        <item>Инжир</item>
+        <item>Киви</item>
+        <item>Клубника</item>
+        <item>Клюква</item>
+        <item>Крыжовник</item>
+        <item>Лимон</item>
+        <item>Малина</item>
+        <item>Манго</item>
+        <item>Мандарины	</item>
+        <item>Нектарин</item>
+        <item>Персикг</item>
+        <item>Папайя</item>
+        <item>Сливы синие</item>
+        <item>Смородина</item>
+        <item>Фейхоа</item>
+        <item>Хурма</item>
+        <item>Черешня</item>
+        <item>Черника</item>
+        <item>Шиповник</item>
+        <item>Яблоко</item>
+        <item>Сок капустный</item>
+        <item>Сок морковный</item>
+        <item>Сок огуречный</item>г
+        <item>Сок свекольный</item>
+        <item>Сок томатный</item>
+        <item>Сок апельсиновый</item>
+        <item>Сок виноградный</item>
+        <item>Сок вишневый</item>
+        <item>Сок грушевый</item>
+        <item>Сок грейпфрутовый</item>
+        <item>Сок красносмородиновый</item>
+        <item>Сок крыжовниковый</item>
+        <item>Сок клубничный</item>
+        <item>Сок малиновый</item>
+        <item>Сок сливовый</item>
+        <item>Сок яблочный</item>
+    </string-array>
+    <integer-array name="basic_food_values">
+        <item>	200	</item>
+        <item>	200	</item>
+        <item>	250	</item>
+        <item>	250	</item>
+        <item>	100	</item>
+        <item>	250	</item>
+        <item>	90	</item>
+        <item>	200	</item>
+        <item>	300	</item>
+        <item>	200	</item>
+        <item>	200	</item>
+        <item>	65	</item>
+        <item>	50	</item>
+        <item>	130	</item>
+        <item>	30	</item>
+        <item>	75	</item>
+        <item>	100	</item>
+        <item>	35	</item>
+        <item>	40	</item>
+        <item>	35	</item>
+        <item>	20	</item>
+        <item>	25	</item>
+        <item>	30	</item>
+        <item>	15	</item>
+        <item>	15	</item>
+        <item>	15	</item>
+        <item>	25	</item>
+        <item>	20	</item>
+        <item>	20	</item>
+        <item>	20	</item>
+        <item>	20	</item>
+        <item>	20	</item>
+        <item>	20	</item>
+        <item>	20	</item>
+        <item>	35	</item>
+        <item>	25	</item>
+        <item>	30	</item>
+        <item>	50	</item>
+        <item>	50	</item>
+        <item>	50	</item>
+        <item>	50	</item>
+        <item>	50	</item>
+        <item>	17	</item>
+        <item>	15	</item>
+        <item>	40	</item>
+        <item>	15	</item>
+        <item>	15	</item>
+        <item>	15	</item>
+        <item>	15	</item>
+        <item>	50	</item>
+        <item>	15	</item>
+        <item>	50	</item>
+        <item>	15	</item>
+        <item>	50	</item>
+        <item>	20	</item>
+        <item>	50	</item>
+        <item>	100	</item>
+        <item>	75	</item>
+        <item>	60	</item>
+        <item>	65	</item>
+        <item>	65	</item>
+        <item>	75	</item>
+        <item>	35	</item>
+        <item>	35	</item>
+        <item>	25	</item>
+        <item>	100	</item>
+        <item>	70	</item>
+        <item>	50	</item>
+        <item>	15	</item>
+        <item>	400	</item>
+        <item>	400	</item>
+        <item>	50	</item>
+        <item>	50	</item>
+        <item>	200	</item>
+        <item>	40	</item>
+        <item>	70	</item>
+        <item>	45	</item>
+        <item>	110	</item>
+        <item>	200	</item>
+        <item>	140	</item>
+        <item>	140	</item>
+        <item>	140	</item>
+        <item>	130	</item>
+        <item>	270	</item>
+        <item>	70	</item>
+        <item>	140	</item>
+        <item>	70	</item>
+        <item>	90	</item>
+        <item>	170	</item>
+        <item>	170	</item>
+        <item>	100	</item>
+        <item>	100	</item>
+        <item>	140	</item>
+        <item>	150	</item>
+        <item>	80	</item>
+        <item>	110	</item>
+        <item>	160	</item>
+        <item>	160	</item>
+        <item>	120	</item>
+        <item>	270	</item>
+        <item>	150	</item>
+        <item>	11	</item>
+        <item>	130	</item>
+        <item>	120	</item>
+        <item>	120	</item>
+        <item>	140	</item>
+        <item>	90	</item>
+        <item>	140	</item>
+        <item>	160	</item>
+        <item>	70	</item>
+        <item>	100	</item>
+        <item>	140	</item>
+        <item>	60	</item>
+        <item>	90	</item>
+        <item>	500	</item>
+        <item>	125	</item>
+        <item>	500	</item>
+        <item>	125	</item>
+        <item>	300	</item>
+        <item>	110	</item>
+        <item>	70	</item>
+        <item>	90	</item>
+        <item>	100	</item>
+        <item>	140	</item>
+        <item>	80	</item>
+        <item>	100	</item>
+        <item>	100	</item>
+        <item>	170	</item>
+        <item>	80	</item>
+        <item>	100	</item>
+    </integer-array>
+    <string-array name="Breakfast">
+        <item>	cалат овощной </item>
+        <item>	салат фруктовый	</item>
+        <item>	бутерброд	</item>
+        <item>	творог	</item>
+        <item>	йогурт	</item>
+        <item>	каша манная	</item>
+        <item>	каша пшенная	</item>
+        <item>	каша овсяная	</item>
+        <item>	фрукт на выбор(яблоко, банан)</item>
+    </string-array>
+    <string-array name="LunchFirst">
+        <item>	куриный бульон </item>
+        <item>	рассольник	</item>
+        <item>	гороховый суп	</item>
+        <item>	капустный суп	</item>
+        <item>	крем-суп с грибами	</item>
+    </string-array>
+    <string-array name="LunchSecond">
+        <item>	салат овощной </item>
+        <item>	салат оливье	</item>
+        <item>	картофельньое пюре	</item>
+        <item>	гречневая каша	</item>
+        <item>	блин с мясом</item>
+        <item>	блин с творогом</item>
+    </string-array>
+    <string-array name="Dinner">
+        <item>	салат на выбор	</item>
+        <item>	омлет	</item>
+        <item>	блин с мясом</item>
+        <item>	блин с творогом</item>
+    </string-array>
+    <string-array name="Snacks">
+        <item>	салат на выбор	</item>
+        <item>	омлет	</item>
+        <item>	блин с мясом</item>
+        <item>	блин с творогом</item>
+    </string-array>
+
+</resources>

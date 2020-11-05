@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_background"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:id="@+id/note_layout"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true">
+        <TextView
+            android:id="@+id/note_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:text="Username"
+            android:layout_marginEnd="10dp"
+            />
+
+        <EditText
+            android:id="@+id/note_text"
+            android:hint="введите описание события"
+            android:textColorHint="#CDDC39"
+            android:background="@drawable/grey_background_rectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/note_date"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btnAddNote"
+        android:layout_marginLeft="20dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/red_background_rectangle"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_baseline_add_24"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>

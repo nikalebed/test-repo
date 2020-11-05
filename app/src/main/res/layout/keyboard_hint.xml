@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <Button
+        android:paddingHorizontal="5dp"
+        android:id="@+id/btnHint"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/red_background_rectangle"
+        android:clickable="true"
+        android:text="подсказка"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:textColor="#ffffff"
+        android:layout_marginHorizontal="2dp"
+        />
+
+</LinearLayout>

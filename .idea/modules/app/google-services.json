@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "5360874530",
+    "firebase_url": "https://dialog-for-better.firebaseio.com",
+    "project_id": "dialog-for-better",
+    "storage_bucket": "dialog-for-better.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5360874530:android:fa2acfb6fb320edd81c67b",
+        "android_client_info": {
+          "package_name": "com.veronikalebedyuk.dialogforbetter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5360874530-jgcho4a5pota2h5m68d2eigg5ug15hpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veronikalebedyuk.dialogforbetter",
+            "certificate_hash": "99f1f64aac5c4d870524835fa47fa4a720f1a9be"
+          }
+        },
+        {
+          "client_id": "5360874530-dfakbl12kn6hqb3ooslu13knm10j8mg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyActjSyR_7uMx5ejn57-9PST3F82unS24E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5360874530-dfakbl12kn6hqb3ooslu13knm10j8mg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

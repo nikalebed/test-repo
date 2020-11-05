@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13015005326",
+    "firebase_url": "https://dialog-for-better-5692d.firebaseio.com",
+    "project_id": "dialog-for-better-5692d",
+    "storage_bucket": "dialog-for-better-5692d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13015005326:android:99f93272a219c9ce70f1df",
+        "android_client_info": {
+          "package_name": "com.veronikalebedyuk.dialogforbetter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13015005326-c2q3c02tun4h4ts9cq7hmj11g1gono6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkgTy7eugkw9m_SZgJ3yknOyrRj-lX6WY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13015005326-c2q3c02tun4h4ts9cq7hmj11g1gono6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

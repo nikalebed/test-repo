@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <TextView
+         android:id="@+id/calendar_user"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:textStyle="bold"
+         android:textColor="#1E9B11"
+         android:text="DIAlog"
+         android:layout_marginLeft="10dp"
+         />
+    <TextView
+        android:id="@+id/calendar_message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/calendar_message"
+        android:text="11:13"
+        android:layout_marginHorizontal="10dp"
+        />
+    <com.applandeo.materialcalendarview.CalendarView
+        android:padding="10dp"
+        android:id="@+id/calendar_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:headerColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/calendar_user"
+        app:datePicker="false"
+        app:selectionColor="@color/colorPrimary"
+        app:eventsEnabled="true"
+        android:elevation="10dp"
+        />
+
+</RelativeLayout>
